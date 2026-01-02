@@ -1,0 +1,22 @@
+{
+  "name": "@fullstackcinema/common",
+  "version": "1.0.0",
+  "description": "Core shared components for fullstack cinema microservice ecosystem",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@fullstackcinema/core": "^1.0.3",
+    "@types/node": "^25.0.3",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  }
+}
