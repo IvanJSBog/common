@@ -1,6 +1,6 @@
 {
   "name": "@fullstackcinema/common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Core shared components for fullstack cinema microservice ecosystem",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
