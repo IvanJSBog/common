@@ -1,6 +1,6 @@
 {
   "name": "@fullstackcinema/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core shared components for fullstack cinema microservice ecosystem",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsc -p ../passport/tsconfig.build.json"
   },
   "devDependencies": {
     "@fullstackcinema/core": "^1.0.3",
